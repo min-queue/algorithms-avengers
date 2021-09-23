@@ -1,5 +1,7 @@
 # algorithms-avengers
-
+각자 폴더랑 브랜치 만들어서 업데이트 하시면 됩니다. 한 주에, 한 개씩은 꼭 올려주세요. 
+언어는 무관합니다. 아래 문제는 추천 문제입니다. 
+God bless you 
 ## Week 1 Assignment
 ### 문자열 조작 
 - Recommend Question
