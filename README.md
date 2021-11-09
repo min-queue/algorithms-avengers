@@ -10,6 +10,7 @@ God bless you
   - [question 3](https://leetcode.com/problems/most-common-word/submissions/)
   - [question 4](https://leetcode.com/problems/group-anagrams/)
   - [question 5](https://leetcode.com/problems/longest-palindromic-substring/)
+  - [question 6](https://programmers.co.kr/learn/courses/30/lessons/42579)
 ## Week 2 Stack/Queue
 ### Stack, Queue
 - Recomendation Question
@@ -17,3 +18,4 @@ God bless you
   - [question 2](https://leetcode.com/problems/trapping-rain-water/)
   - [question 3](https://leetcode.com/problems/3sum/)
   - [question 4](https://leetcode.com/problems/array-partition-i/)
+  - [question 5](https://programmers.co.kr/learn/courses/30/lessons/42583)
