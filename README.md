@@ -12,7 +12,7 @@ God bless you
   - [question 5](https://leetcode.com/problems/longest-palindromic-substring/)
   - [question 6](https://programmers.co.kr/learn/courses/30/lessons/42579)
 ## Week 2 Stack/Queue
-### Stack, Queue
+### Stack, Queue, Array
 - Recomendation Question
   - [question 1](https://leetcode.com/problems/two-sum/)
   - [question 2](https://leetcode.com/problems/trapping-rain-water/)
