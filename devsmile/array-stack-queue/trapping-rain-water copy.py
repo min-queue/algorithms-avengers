@@ -1,7 +1,7 @@
 from typing import List
 from collections import deque
 
-# 투포인터 문제
+
 class Solution:
     def trap(self, height: List[int]) -> int:
         left, right, result = 0, 1, 0
@@ -9,6 +9,10 @@ class Solution:
         
         while len(height) > right + 1:
             if height[left] <= height[right]:
+                # print(blocks)
+                # print(height[left],height[right])
+                # print("==========")
+
                 result += self.calculate(blocks, min(height[left], height[right]))
                 left = right
                 right = left + 1
@@ -17,11 +21,26 @@ class Solution:
             elif height[left] > height[right]:
                 blocks.append(height[right])
                 right += 1
-
+        # print(result)
+        # print(blocks)
+        # print(height[left], height[right]) 
         right = len(blocks)
         left = 0
+        # while left >=right :
+        #     if max(blocks) == blocks[left]:
+        #         left +=1
+                
+        #     elif min(blocks) == blocks[right]:
+                # right -=1
+        # result += self.calculate(block[left:right])
+        # left, right = 0
         if len(blocks) != 0 :
             result += self.trap_calculcate(height[::-1],0, 1)
+        #     while left < right and max(block) != block[left] and min(block) != block[right]:    
+        #         if min(blocks) == height[right]:
+        #             result += self.calculate(blocks, max(blocks))
+        #         else :
+        #             result += self.calculate(blocks, min([height[left], height[right]]))
 
         return result
     def trap_calculcate(self,height, left, right ):
@@ -29,8 +48,11 @@ class Solution:
         result = 0
         while len(height) > right + 1:
             if height[left] <= height[right]:
+                # print(blocks)
+                # print(height[left],height[right])
+                # print("==========")
+
                 result += self.calculate(blocks, min(height[left], height[right]))
-                print(blocks)
                 left = right
                 right = left + 1
                 blocks = []
@@ -55,4 +77,4 @@ height = [4, 2, 3]
 s = Solution()
 # s.trap(height)
 # height = [1000,999,998,997,996,996,996,996,996]
-# print(s.trap(height))
+print(s.trap(height))
