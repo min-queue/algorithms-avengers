@@ -20,3 +20,9 @@ class Solution:
 
 s = Solution()
 s.arrayPairSum(arr)
+
+
+class Solution:
+    def arrayPairSum(self, nums: List[int]) -> int:
+        return sum(sorted(nums)[::2])
+        
