@@ -28,7 +28,7 @@ God bless you
   - [question 4](https://leetcode.com/problems/add-two-numbers/)
   - [question 5](https://leetcode.com/problems/swap-nodes-in-pairs/)
   - [question 6](https://leetcode.com/problems/odd-event-linked-list/)
-  - [question 6](https://leetcode.com/problems/reverse-linked-list-ii/)
+  - [question 7](https://leetcode.com/problems/reverse-linked-list-ii/)
 
 
 
