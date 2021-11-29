@@ -53,7 +53,11 @@ God bless you
 ## Week 6 Assginment
 ### Graph(Non Linear Data Structure)
 - Recomendation Question
-  - [question 1](https://leetcode.com/problems/design-hashmap/)
-  - [question 2](https://leetcode.com/problems/jewels-and-stones/)
-  - [question 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-  - [question 4](https://leetcode.com/problems/top-k-frequent-elements/)
+  - [question 1](https://leetcode.com/problems/number-of-islands/)
+  - [question 2](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+  - [question 3](https://leetcode.com/problems/permutations/)
+  - [question 4](https://leetcode.com/problems/combinations/)
+  - [question 5](https://leetcode.com/problems/combination-sum/)
+  - [question 6](https://leetcode.com/problems/subsets/)
+  - [question 7](https://leetcode.com/problems/reconstruct-itinerary/)
+  - [question 8](https://leetcode.com/problems/course-schedule/)
