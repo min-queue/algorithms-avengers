@@ -5,6 +5,7 @@ from typing import List
 arr = [6, 2, 6, 5, 1, 2]
 arr = [6, 2, 5, 1, 2]
 
+
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         result = 0
@@ -25,4 +26,3 @@ s.arrayPairSum(arr)
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         return sum(sorted(nums)[::2])
-        

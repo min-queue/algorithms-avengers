@@ -27,8 +27,37 @@ God bless you
   - [question 3](https://leetcode.com/problems/reverse-linked-list/)
   - [question 4](https://leetcode.com/problems/add-two-numbers/)
   - [question 5](https://leetcode.com/problems/swap-nodes-in-pairs/)
-  - [question 6](https://leetcode.com/problems/odd-event-linked-list/)
+  - [question 6](https://leetcode.com/problems/odd-even-linked-list/)
   - [question 7](https://leetcode.com/problems/reverse-linked-list-ii/)
-
-
-
+## Week 4 Assginment
+### Stack / Queue
+- Recomendation Question
+  - [question 1](https://leetcode.com/problems/valid-parentheses/)
+  - [question 2](https://leetcode.com/problems/remove-duplicate-letters/)
+  - [question 3](https://leetcode.com/problems/daily-temperatures/)
+  - [question 4](https://leetcode.com/problems/implement-stack-using-queues/)
+  - [question 5](https://leetcode.com/problems/implement-queue-using-stacks/)
+  - [question 6](https://leetcode.com/problems/design-circular-queue/)
+## Bonus Assginment
+### Deque(Double-Ended Queue) / Priority Queue
+- Recomendation Question
+  - [question 1](https://leetcode.com/problems/design-circular-deque/)
+  - [question 2](https://leetcode.com/problems/merge-k-sorted-lists/)
+## Week 5 Assginment
+### Hash Table
+- Recomendation Question
+  - [question 1](https://leetcode.com/problems/design-hashmap/)
+  - [question 2](https://leetcode.com/problems/jewels-and-stones/)
+  - [question 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+  - [question 4](https://leetcode.com/problems/top-k-frequent-elements/)
+## Week 6 Assginment
+### Graph(Non Linear Data Structure)
+- Recomendation Question
+  - [question 1](https://leetcode.com/problems/number-of-islands/)
+  - [question 2](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+  - [question 3](https://leetcode.com/problems/permutations/)
+  - [question 4](https://leetcode.com/problems/combinations/)
+  - [question 5](https://leetcode.com/problems/combination-sum/)
+  - [question 6](https://leetcode.com/problems/subsets/)
+  - [question 7](https://leetcode.com/problems/reconstruct-itinerary/)
+  - [question 8](https://leetcode.com/problems/course-schedule/)
