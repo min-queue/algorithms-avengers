@@ -6,3 +6,6 @@ class Solution:
             if set(s) == set(suffix):
                 return char + self.removeDuplicateLetters(suffix.replace(char,''))
         return ''
+
+a = "cbacdcbc"
+print(a[1:])
