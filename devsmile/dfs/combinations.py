@@ -8,9 +8,9 @@ class Solution:
                 for idx, num in enumerate(numbers):
                     result_new = result[:]
                     result_new.append(num)
-                    dfs(numbers[idx+1:], result_new, k-1)
+                    dfs(numbers[idx + 1 :], result_new, k - 1)
 
-        numbers = [n for n in range(1, n+1)]
+        numbers = [n for n in range(1, n + 1)]
         answer = []
         dfs(numbers, [], k)
         return answer
