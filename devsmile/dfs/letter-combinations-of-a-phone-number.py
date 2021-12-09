@@ -14,7 +14,7 @@ print(dic)
 
 
 class Solution:
-    def letterCombinations(self, digits: str) -> List[str]:
+    def letterCombinations(self, digits: str):
         def dfs(index, p):
             if len(p) == len(digits):
                 result.append(p)

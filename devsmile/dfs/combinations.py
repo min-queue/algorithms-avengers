@@ -1,5 +1,5 @@
 class Solution:
-    def combine(self, n: int, k: int) -> List[List[int]]:
+    def combine(self, n, k):
         def dfs(numbers, result, k):
             if k == 0:
                 answer.append(result)
