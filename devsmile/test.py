@@ -5,9 +5,9 @@ import heapq as hq
 # n = 2
 # orders = ['A 1', 'A 2', 'B 3', 'B 4']
 
-recipes = ["P 8", "F 2", "S 3"]
-n = 3
-orders = ["P 1", "F 2", "S 4", "S 6", "P 7", "S 8"]
+# recipes = ["P 8", "F 2", "S 3"]
+# n = 3
+# orders = ["P 1", "F 2", "S 4", "S 6", "P 7", "S 8"]
 
 
 def solution(recipes, n, orders):
@@ -23,6 +23,7 @@ def solution(recipes, n, orders):
         menu = o.split()[0]
         menu_time = int(o.split()[1])
         place_time = hq.heappop(places)
+
         time = 0
         if place_time >= menu_time:
             place_time += my_recipes[menu]
@@ -34,8 +35,6 @@ def solution(recipes, n, orders):
             return time
         else:
             hq.heappush(places, time)
-        # print(places)
-    # print(my_recipes)
 
 
 print(solution(recipes, n, orders))
